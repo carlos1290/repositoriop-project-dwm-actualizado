@@ -1,0 +1,137 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+
+    
+  background-color: #f0f8ff;
+}
+
+/* Estilos para el encabezado */
+#header {
+    height: 80px;
+    background-color: #0080FF;
+    color: #fff;
+    padding: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 10px;
+    color: #f0f8ff;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-lindos {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.a-lindos:hover {
+    color: #ffca28;
+}
+
+/* Estilos para el menú desplegable */
+.menu-container {
+    position: relative;
+}
+
+.img-menu {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 100px;
+    transition: 500ms;
+}
+
+.sub-lista {
+    display: none;
+    padding: 10px;
+    font-size: 20px; /* Aumentar el tamaño de la fuente */
+    margin-top: 10px;
+    list-style: none;
+    position: absolute;
+    background-color: #0080FF;
+    color: #fff; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+.sub-lista li {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.sub-lista a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.sub-lista a:hover {
+    background-color: #0054a0;
+}
+
+
+.menu-container:hover .sub-lista {
+    display: block;
+    top: 40px;
+    left: -10px;
+    opacity: 1; /* Mostrar la sublista con transición suave */
+}
+
+/* Estilos para el contenido principal */
+
+main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+ justify-content: center;
+ text-align: center;
+    margin-top: 100px;
+    align-items: center;
+}
+.titulo{
+    font-size: 30px;
+ margin-top: 20px;
+ margin-bottom: 11px;
+}
+ 
+.img-text1{
+
+right: 160px;
+}
+.img-text2{
+       
+}
