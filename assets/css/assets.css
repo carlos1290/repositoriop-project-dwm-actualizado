@@ -9,7 +9,6 @@
 }
 
 body {
-    background-image: url(/imagenes/bg4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +18,7 @@ body {
 /* Estilos para el encabezado */
 #header {
     height: 80px;
-    background-color: #0080FF;
+    background-color: #000;
     color: #fff;
     padding: 0;
     top: 0;
@@ -76,10 +75,10 @@ body {
     margin-top: 10px;
     list-style: none;
     position: absolute;
-    background-color: #0080FF;
+    background-color: #000;
     color: #fff; /* Cambiar el color de texto */
     border-radius: 5px; 
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+    box-shadow: 0 0 5px rgba(26, 25, 25, 0.3); 
     opacity: 0; 
     transition: opacity 0.3s ease;
 }
@@ -98,7 +97,7 @@ body {
 }
 
 .sub-lista a:hover {
-    background-color: #0054a0;
+    background-color: #ffca28;
 }
 
 .menu-container:hover .sub-lista {
@@ -149,7 +148,7 @@ main {
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 128, 255, 0.8);
+    background-color: rgba(56, 60, 63, 0.8);
 }
 
 .caja_de_atras div {
@@ -182,7 +181,7 @@ main {
 
 .caja_de_atras div button:hover {
     background-color: #f0f8ff;
-    color: #46a2fd;
+    color: #690b0b;
 }
 
 /* Estilos de formularios */
@@ -200,7 +199,7 @@ main {
 .contenedor__login-register form {
     width: 100%;
     padding: 80px 20px;
-    background-color: #f0f8ff;
+    background-color: #000;
     position: absolute;
     border-radius: 20px;
 }
@@ -209,7 +208,7 @@ main {
     font-size: 38px;
     text-align: center;
     margin-bottom: 20px;
-    color: #46a2fd;
+    color: #f2f2f2;
 }
 
 .contenedor__login-register form input {
@@ -217,7 +216,7 @@ main {
     margin-top: 20px;
     padding: 10px;
     border: none;
-    background: #f2f2f2;
+    background: #f0f8ff;
     font-size: 16px;
     outline: none;
     margin-bottom: 30px;
@@ -228,7 +227,7 @@ main {
     margin-top: 40px;
     border: none;
     font-size: 16px;
-    background: #3498fc;
+    background: #690b0b;
     color: #f0f8ff;
     cursor: pointer;
     outline: none;
@@ -246,7 +245,7 @@ main {
  /* pie de pagina*/
 .footer-1 {
     margin-top: 40px;
-    background-color: #0054a0;
+    background-color: #000;
     color: #fff;
     padding: 20px;
     text-align: center;
