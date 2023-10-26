@@ -53,7 +53,7 @@ body {
 }
 
 .a-lindos:hover {
-    color: #ffca28;
+    color: #690b0b;
 }
 
 /* Estilos para el menú desplegable */
@@ -98,11 +98,10 @@ body {
 }
 
 .sub-lista a:hover {
-    background-color: #ffca28;
+color: #690b0b;
 }
 
-.menu-container:hover .sub-lista {
-    display: block;
+.sub-lista {
     top: 40px;
     left: -10px;
     opacity: 1; /* Mostrar la sublista con transición suave */
@@ -122,11 +121,14 @@ body {
     margin-bottom: 20px;
   }
   
-  .letra {
-    font-size: 16px;
+  #letra {
+    font-size: 18px;
     line-height: 1.6;
-    color: #333;
     margin-bottom: 15px;
+  }
+  article p {
+    background-color: #82828A;
+    padding: 20px;
   }
 main {
     width: 100%;
