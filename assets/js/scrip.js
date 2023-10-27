@@ -8,7 +8,7 @@ var cajadeatrasregister = document.querySelector(".caja_de_atras_register");
 var cajadeatraslogin = document.querySelector(".caja_de_atras_login");
 var formularioregister = document.querySelector(".formulario_register");
 var formulariologin = document.querySelector(".formulario_login");
-var contenedormenu = document.querySelector("menu-container");  
+
 function tocarsubmenu () {
     var sublista = document.querySelector(".sub-lista");
     if (sublista.style.display === "block") {
