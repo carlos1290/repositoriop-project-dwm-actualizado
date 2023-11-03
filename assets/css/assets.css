@@ -36,7 +36,7 @@ background-color: #000;
 }
 
 .nav {
-    display: flex;
+    display: inline-flex;
     list-style: none;
     align-items: center;
     justify-content: space-between;
@@ -45,7 +45,7 @@ background-color: #000;
 .a-lindos {
     color: #fff;
     text-decoration: none;
-    margin: 10px;
+    margin: 5px;
     transition: color 0.3s ease;
 }
 

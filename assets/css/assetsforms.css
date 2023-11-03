@@ -98,7 +98,7 @@ background-image: url(imagenes/bg4.jpg);
 }
 
 .sub-lista a:hover {
-color: #690b0b;
+color: #1ef107;
 }
 
 .sub-lista {
@@ -112,13 +112,13 @@ color: #690b0b;
     font-size: 40px;
     text-align: center;
     margin-top: 30px;
-    color: #910D0D;
+    color: #1ef107;
     margin-bottom: 30px;
   }
   
   .letra-grande {
     margin-top: 45px;
-    color: #910D0D;
+    color: #ffff;
     font-size: 28px;
     margin-bottom: 20px;
   }
